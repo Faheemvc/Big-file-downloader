@@ -4,11 +4,12 @@ defmodule Downloader do
   """
 
   @doc """
-  Hello world.
+  downloader
 
   ## Examples
 
-      iex>
+      iex>Downloader.download()
+      :ok
 
 
   """
