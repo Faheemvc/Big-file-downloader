@@ -1,6 +1,5 @@
 # Bigfile
-
-**TODO: Add description**
+This project helps to download big files, by chunking and each Start download at same time asynchronously.
 
 ## Installation
 
@@ -19,3 +18,16 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/bigfile>.
 
+## Run following
+- Install dependancies 
+```
+mix deps.get
+```
+- Start server
+```
+mix phx.server
+```
+- Start server with iex
+```
+iex -S mix phx.server
+```
